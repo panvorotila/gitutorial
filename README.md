@@ -50,3 +50,25 @@ git push -u origin master(or main)   for the first time
 
 the other times
 git push
+
+## Correct commit
+
+Add file to commit
+git commit --amend --no-edit
+
+Change message
+git commit --amend -m 'Corrected message'
+Same in editor
+git commit --amend
+
+## Restore files and commits
+
+Delete last commit(s) and restore choosen
+git reset --hard 'commit hash to restore'
+
+To unstage file(s):
+git restore --staged 'filename or . '
+
+To restore unstaged file:
+git restore 'filename'
+
