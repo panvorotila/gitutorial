@@ -66,9 +66,16 @@ git commit --amend
 Delete last commit(s) and restore choosen
 git reset --hard 'commit hash to restore'
 
-To unstage file(s):
+To unstage file(s)
 git restore --staged 'filename or . '
 
-To restore unstaged file:
+To restore unstaged file
 git restore 'filename'
 
+## Look changes
+
+For modified files
+git diff
+
+For staged files
+git diff --staged
