@@ -78,7 +78,11 @@ git restore 'filename'
 ## Look changes
 
 For modified files<br>
-git diff (if needed use previous hash (space) later hash or HEAD)
+git diff
 
 For staged files<br>
 git diff --staged
+
+For commited files<br>
+git diff previous hash (space) later hash or HEAD
+
