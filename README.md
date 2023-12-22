@@ -23,6 +23,9 @@ git commit -m 'My message'
 
 git log
 
+Short version<br>
+git log --oneline
+
 ## Generate SSH key
 
 ssh-keygen -t ed25519 -C github-account-email<br>
@@ -75,7 +78,7 @@ git restore 'filename'
 ## Look changes
 
 For modified files<br>
-git diff
+git diff (if needed use previous hash (space) later hash or HEAD)
 
 For staged files<br>
 git diff --staged
