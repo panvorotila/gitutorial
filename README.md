@@ -86,3 +86,6 @@ git diff --staged
 For commited files<br>
 git diff previous hash (space) later hash or HEAD
 
+##To ignore some files
+touch .gitignore<br>
+and add files to be ignored, for example .DC_Store (MacOS settings informationdirectory)
