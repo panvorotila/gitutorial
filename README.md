@@ -90,3 +90,10 @@ git diff previous hash (space) later hash or HEAD
 
 touch .gitignore<br>
 and add files to be ignored, for example .DC_Store (MacOS settings information directory)
+
+## Clone
+
+git clone (code - SSH coped from repository)
+
+Check connection<br>
+git remote -v
